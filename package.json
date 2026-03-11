@@ -1,0 +1,24 @@
+{
+  "name": "playwright-api-node",
+  "version": "1.0.0",
+  "description": "REST API using Node.js + Express + Playwright",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --check src/server.js && node --check src/playwrightService.js && node --check src/validators.js"
+  },
+  "keywords": [
+    "playwright",
+    "express",
+    "api",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "playwright": "^1.52.0"
+  }
+}
